@@ -14,7 +14,6 @@ Ce projet implémente un système de classification d'images intelligent capable
 
 ## Demo
 
-Exemples de détection d'objets :
 
 <div align="center">
   <img src="demo/1.png" alt="Demo 1" width="45%">
