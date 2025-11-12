@@ -1,0 +1,10 @@
+path: /home/ilyas-ourara/Bureau/M2/MACHINE LEAARNING/Tp/Tp2/dataset_classify
+train: train
+val: val
+test: test
+
+nc: 10
+names: ['Jungle', 'Plage', 'Monuments', 'Bus', 'Dinosaures', 'Elephants', 'Fleurs', 'Chevaux', 'Montagne', 'Plats']
+
+# Configuration pour classification YOLO
+task: classify

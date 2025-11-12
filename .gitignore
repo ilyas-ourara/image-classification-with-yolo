@@ -1,0 +1,114 @@
+# === PYTHON ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# === VIRTUAL ENVIRONMENTS ===
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# === JUPYTER NOTEBOOKS ===
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# === PYTORCH & MACHINE LEARNING ===
+*.pth
+*.pkl
+*.joblib
+runs/
+wandb/
+.neptune/
+
+# === STREAMLIT ===
+.streamlit/
+*.streamlit/
+
+# === DATASETS (LARGE FILES) ===
+*.csv
+*.json
+*.parquet
+data/
+datasets/
+raw_data/
+processed_data/
+
+# === IMAGES & MEDIA ===
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.mp4
+*.avi
+*.mov
+*.wmv
+
+# === LOGS ===
+*.log
+logs/
+log/
+
+# === OS FILES ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === TEMPORARY FILES ===
+*.tmp
+*.temp
+tmp/
+temp/
+
+# === CONFIGURATION FILES (SENSITIVE) ===
+config.ini
+.env.local
+.env.production
+secrets.json
+
+# === CACHE ===
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# === NODE MODULES (SI FRONTEND) ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
