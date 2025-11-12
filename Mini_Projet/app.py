@@ -22,10 +22,6 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-"""
-Commande de lancement:
-PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python streamlit run Project/Mini_Projet/app.py --server.port 8506
-"""
 
 # Supprimer les warnings
 warnings.filterwarnings("ignore")
@@ -110,7 +106,7 @@ st.markdown("""
 def load_yolo_model():
     """Charger le modèle YOLO et récupérer les noms des classes"""
     try:
-        model_path = "Project/models/best.pt"
+        model_path = "models/best.pt"
         if not os.path.exists(model_path):
             st.error(f"❌ Modèle non trouvé: {model_path}")
             st.info("Assurez-vous que le modèle 'models/best.pt' existe")

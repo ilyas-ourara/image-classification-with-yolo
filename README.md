@@ -11,6 +11,18 @@
 
 Ce projet implémente un système de classification d'images intelligent capable de reconnaître 10 catégories différentes du dataset Wang. L'application combine la puissance des modèles YOLO avec une interface utilisateur moderne et intuitive.
 
+
+## Demo
+
+Exemples de détection d'objets :
+
+<div align="center">
+  <img src="demo/1.png" alt="Demo 1" width="45%">
+  <img src="demo/2.png" alt="Demo 2" width="45%">
+</div>
+
+
+
 ### 🖼️ Dataset Wang - 10 Classes
 - 🌳 **Jungle** - Paysages tropicaux et forêts denses
 - 🏖️ **Plage** - Plages et environnements côtiers
